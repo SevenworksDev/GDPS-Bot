@@ -30,6 +30,5 @@ while True:
   try:
     t=threading.Thread(target=botter)
     t.start()
-    time.sleep(2)
   except:
     print("Crashed, restarted process.")
